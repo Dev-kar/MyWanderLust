@@ -1,0 +1,150 @@
+:root {
+    --blue: rgb(79, 81, 218);
+  }
+
+body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 4rem;
+    border: none;
+   
+}
+.logo img{
+    float: left;
+    object-fit:contain ;    
+    height: 3rem;
+}
+.vid{
+    margin:0 0 3rem 0;
+    border: none;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    object-fit: contain;
+}
+.hero p{
+    max-width: fit-content;
+}
+
+.heroContent{
+   padding:2rem 0 0 6rem;
+    font-family:'Roboto', sans-serif ;
+    object-fit: contain;
+}
+.heroContent h1{
+    font-size: 4rem;
+    text-shadow: 1.5px 1.5px 5px rgb(97, 96, 96);
+    margin-top: 0;
+}
+.heroContent h3, expect h3{
+    color: rgb(226, 87, 157);
+    margin-bottom: 10px;
+
+}
+
+
+.locTime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.locTime h2{
+    margin-bottom: 5px;
+}
+.locTime p{
+    font-size: large;
+}
+.locTime li{
+    text-align: center;
+    width: 200px;
+    font-size: 30px;
+    list-style: none;
+	background-image: url("https://www.kindpng.com/picc/m/148-1489568_blue-location-address-icon-hd-png-download.png");
+	background-repeat: no-repeat;
+	background-position:0px;
+	background-size: 40px;
+}
+.time li{
+    list-style: none;
+	background-image: url("https://w7.pngwing.com/pngs/139/151/png-transparent-computer-icons-calendar-agenda-calendar-icon-miscellaneous-blue-text.png");
+	background-repeat: no-repeat;
+	background-position:0px;
+	background-size: 40px;
+}
+
+.intro {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    width: 150%;
+}
+
+.vax{
+    background-color: rgba(79, 81, 218, 0.2);
+    border-radius: 20px;
+    color: rgb(49, 51, 136);
+    padding: 2rem;
+    height: fit-content;
+    width: 130%;
+    font-size: large;
+    margin: 2rem 0 0 0;
+}
+.vax span{
+    font-weight: bold;
+}
+
+
+.expect h1{
+    font-size: 3rem;
+    text-shadow: none;
+}
+
+
+
+
+.adCard span{
+    color: var(--blue);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.adCard h1{
+    font-size: 20px;
+}
+.adCardTxt li{
+    margin: 10px;
+}
+.adCardTxt button{
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width:100%;
+    height: max-content;
+    padding: 20px;
+
+} 
+
+.fixedAd{
+   margin: 5rem 7rem 0 0 ;
+    height: fit-content;
+    width: 18rem;
+    background-color: rgba(141, 51, 224, 0);
+    box-shadow: 0 0 10px 5px rgba(158, 157, 157, 0.3);
+    padding: 2.5rem;
+    font-family:'Roboto', sans-serif ;
+
+}
+.adCardTxt{
+    color: rgb(121, 120, 120);
+}
+
+.adCard ul{
+    list-style-type:disc;
+}
